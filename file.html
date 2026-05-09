@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sathya Kalyanasundaram</title>
+  <link rel="stylesheet" href="file.css" />
+</head>
+<body>
+  <header>
+    <h1>Sathya Kalyanasundaram</h1>
+    <nav>
+      <button onclick="showSection('bio')">Bio</button>
+      <button onclick="showSection('resume')">Resume</button>
+      <button onclick="showSection('contact')">Contact</button>
+      <button onclick="showSection('game')">Game</button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Resume Section -->
+    <section id="resume" class="content-section">
+      <h2>Resume</h2>
+      <p><strong>Sathya Kalyanasundaram</strong><br>
+      Ames, IA | 630-642-3861 | sathyak1@iastate.edu</p>
+
+      <h3>Education</h3>
+      <p><strong>Iowa State University</strong><br>
+      B.S. in Management Information Systems (Aug 2024 – Dec 2027)<br>
+      Minor: Computer Science | GPA: 3.0<br>
+      Relevant Coursework: Object-Oriented Programming, Data Structures, Database Management Systems (SQL), Systems Analysis and Design, Business Analytics, Web Development.</p>
+
+      <h3>Projects</h3>
+      <p><strong>CyRide System Simulation | Java</strong></p>
+      <ul>
+        <li>Built a program that models Iowa State’s CyRide bus system to test timing and routes.</li>
+        <li>Used arrays, enums, and classes to represent buses, stops, and schedules.</li>
+        <li>Practiced debugging and modular programming techniques.</li>
+      </ul>
+
+      <p><strong>Town Simulation Project | Java</strong></p>
+      <ul>
+        <li>Developed a grid-based town simulation modeling different cell types and their interactions.</li>
+        <li>Implemented object-oriented design using inheritance, abstract classes, and enums.</li>
+        <li>Simulated state transitions across a 2D array representing dynamic system behavior.</li>
+      </ul>
+
+      <p><strong>Personal Portfolio Website | HTML, CSS, JavaScript</strong></p>
+      <ul>
+        <li>Designed a personal portfolio site to display projects and contact information.</li>
+        <li>Applied CSS for styling and responsive layout using flexbox and grid.</li>
+        <li>Hosted the site through GitHub Pages for live updates and version control.</li>
+      </ul>
+
+      <h3>Work Experience</h3>
+      <p><strong>Campus Brew Coffee Shop</strong> – Ames, IA<br>
+      Barista (Aug 2024 – Present)</p>
+      <ul>
+        <li>Led shifts as a team lead by training new baristas, coordinating workflow, and maintaining a productive environment during peak hours.</li>
+        <li>Managed inventory by tracking stock levels, restocking supplies, and communicating shortages to ensure smooth daily operations.</li>
+        <li>Handled opening and closing procedures with accuracy and consistency, ensuring the store was prepared for customers and secured at the end of day.</li>
+      </ul>
+
+      <h3>Technical Skills</h3>
+      <p>Languages: Java, Python, HTML, CSS, LaTeX (learning)<br>
+      Tools: Eclipse, IntelliJ, VS Code, Git/GitHub<br>
+      Concepts: Object-Oriented Programming, Data Structures, Web Design, Debugging</p>
+
+      <h3>Activities</h3>
+      <p><strong>Video Game Design Club</strong> – Iowa State University<br>
+      Member / Developer (Fall 2025 – Present)</p>
+      <ul>
+        <li>Collaborated with a team of developers to design gameplay mechanics, character movement, and level flow for a 2D platformer.</li>
+        <li>Used Java and object-oriented programming principles to implement game logic, collision handling, and scoring systems.</li>
+        <li>Participated in team discussions, code reviews, and iterative design sessions to improve game features and overall player experience.</li>
+      </ul>
+    </section>
+
+    <!-- Bio Section -->
+    <section id="bio" class="content-section">
+      <h2>Bio</h2>
+      <p>My name is <strong>Sathya Kalyanasundaram</strong>. I’m a third-year student at <strong>Iowa State University</strong> pursuing a <strong>Bachelor’s in Management Information Systems</strong> with a minor in <strong>Computer Science</strong>.</p>
+      <p>I enjoy the design side of coding, which led me to the <strong>Video Game Design Club</strong>. My interests include fitness, reading, music, basketball, and improving self-discipline and confidence. I value growth—both technical and personal.</p>
+      <p>After graduation, I plan to work in the tech industry, focusing on design, development, and user experience. Over time, I want to gain business knowledge that will help me start my own company and build something meaningful from the ground up.</p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+      <h2>Contact</h2>
+      <p><strong>Personal Email:</strong> <a href="mailto:sksboi1214@gmail.com">sksboi1214@gmail.com</a><br>
+      <strong>School Email:</strong> <a href="mailto:sathyak1@iastate.edu">sathyak1@iastate.edu</a><br>
+      <strong>Phone:</strong> 630-642-3861</p>
+    </section>
+
+    <!-- Game Section -->
+    <section id="game" class="content-section">
+      <h2>Coin Collector Game</h2>
+      <canvas id="gameCanvas" width="400" height="500"></canvas>
+      <p id="scoreDisplay">Score: 0</p>
+      <button onclick="startGame()">Start Game</button>
+    </section>
+  </main>
+
+  <script src="file.js"></script>
+</body>
+</html>
+
